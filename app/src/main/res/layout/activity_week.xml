@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Week">
+
+    <Button
+        android:id="@+id/zaczynajmy"
+        android:layout_width="177dp"
+        android:layout_height="78dp"
+        android:text="Zaczynajmy!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.685" />
+
+    <TextView
+        android:id="@+id/gameInfo"
+        android:layout_width="514dp"
+        android:layout_height="129dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:gravity="center"
+        android:text="Witaj! Przed Tobą wspaniały tydziń zajęć na PŁ. Twoim zadaniem jest trafienie na zajęcia w odpowiednim budynku. Im szybciej to zrobisz tym więcej wolnego dnia Ci zostanie! Powodzenia! (W ciągu jednego dnia masz od 4 do 6 zajęć)"
+        app:layout_constraintBottom_toTopOf="@+id/zaczynajmy"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

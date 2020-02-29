@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">Typowy tydzien na PL</string>
+    <string name="uruchom_druga_aktywnosc">Uruchom druga aktywnosc</string>
+
+    <string name="poniedzialek">"Poniedziałek"</string>
+    <string name="wtorek">Wtorek</string>
+    <string name="sroda">Sroda</string>
+    <string name="czwartek">Czwartek</string>
+    <string name="piatek">Piatek</string>
+
+    <string-array name="b6">
+        <item>Biblioteka Budownictwa i Architektury</item>
+    </string-array>
+
+    <string-array name="b7">
+        <item>Dziekanat wydziału BAIŚ</item>
+        <item>Katedra Mechaniki Konstrukcji</item>
+        <item>Katedra Mechaniki Materialow</item>
+    </string-array>
+
+    <string-array name="b9">
+        <item>LODEX</item>
+        <item>Instytut informatyki wydziału FTIMS</item>
+        <item>Instytut matematyki wydziału FTIMS</item>
+        <item>Instytut elektroniki wydziału WEEIA</item>
+        <item>Kolegium logistyki</item>
+    </string-array>
+
+    <string-array name="b14">
+        <item>Instytut Maszyn Przeplywowych</item>
+        <item>Instytut Fizyki B14</item>
+    </string-array>
+
+    <string-array name="b15">
+        <item>Instytut Fizyki B15</item>
+        <item>Międzynarodowa Szkoła Doktorska</item>
+    </string-array>
+
+    <string-array name="b17">
+        <item>Instytut Papiernictwa i Poligrafii</item>
+    </string-array>
+
+    <string-array name="b18">
+        <item>Katedra Mikroelektroniki i Technik Informatycznych</item>
+    </string-array>
+
+    <string-array name="b19">
+        <item>Centrum Technologii Informatycznych</item>
+    </string-array>
+
+    <string-array name="b22">
+        <item>Biblioteka i Wydawnictwa Uczelniane</item>
+        <item>Lodzki Uniwersytet Dzieciecy</item>
+    </string-array>
+
+    <string-array name="b25">
+        <item>Centrum jezykowe</item>
+        <item>Uniwesytet trzeciego wieku</item>
+    </string-array>
+
+    <string-array name="b28">
+        <item>Zatoka Sportu</item>
+        <item>Klub uczelniany AZS</item>
+    </string-array>
+
+    <array name="budynki">
+        <item>@array/b6</item>
+        <item>@array/b7</item>
+        <item>@array/b9</item>
+        <item>@array/b14</item>
+        <item>@array/b15</item>
+        <item>@array/b17</item>
+        <item>@array/b18</item>
+        <item>@array/b22</item>
+        <item>@array/b25</item>
+        <item>@array/b28</item>
+    </array>
+    <string name="title_activity_ranking">RankingActivity</string>
+    <string name="title_activity_authors">Authors</string>
+</resources>
